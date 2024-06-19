@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8350-common",
+    "repository": "device-xiaomi-sm8350",
     "target_path": "device/xiaomi/sm8350-common"
   }
 ]
