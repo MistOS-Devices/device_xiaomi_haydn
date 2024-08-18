@@ -20,9 +20,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := lineage_haydn
 
-# Gapps
-WITH_GMS := false
-
 PRODUCT_SYSTEM_NAME := haydn_global
 PRODUCT_SYSTEM_DEVICE := haydn
 
