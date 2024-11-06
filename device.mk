@@ -49,9 +49,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Call thr Bcr setup
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
