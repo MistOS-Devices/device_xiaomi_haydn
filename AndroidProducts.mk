@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_haydn.mk
+    $(LOCAL_DIR)/derp_haydn.mk
 

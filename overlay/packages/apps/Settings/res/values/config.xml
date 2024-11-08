@@ -22,7 +22,7 @@
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">true</bool>
     
-    <!-- Lineage-Ext maintainer -->
-    <string name="maintainer_name">AshraySingh</string>
-    <string name="ext_settings_summary">Mi 11x Pro/Redmi K40 Pro</string>
+        <!-- DerpFest maintainer -->
+    <string name="maintainer_name">AntiMiUi</string>
+    <string name="maintainer_telegram">https://t.me/Anti_MiUi</string>
 </resources>
