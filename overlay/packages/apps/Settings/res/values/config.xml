@@ -22,7 +22,7 @@
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">true</bool>
     
-        <!-- DerpFest maintainer -->
-    <string name="maintainer_name">AntiMiUi</string>
-    <string name="maintainer_telegram">https://t.me/Anti_MiUi</string>
+        <!-- AOSP maintainer -->
+    <string name="maintainer_name">AsimPlayz</string>
+    <string name="maintainer_telegram">https://t.me/asim_playz</string>
 </resources>

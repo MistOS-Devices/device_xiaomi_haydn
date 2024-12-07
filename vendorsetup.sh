@@ -2,7 +2,7 @@ echo 'Starting to clone stuffs needed to build for Haydn'
 
 # Device common
 echo 'Cloning common device tree'
-git clone https://github.com/Asimplayz1/device-xiaomi-sm8350 -b Cr-15 device/xiaomi/sm8350-common
+git clone https://github.com/Asimplayz1/device-xiaomi-sm8350 -b 15 device/xiaomi/sm8350-common
 
 # Kernel
 echo 'Cloning kernel tree'
