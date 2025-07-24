@@ -2,22 +2,22 @@ echo "Starting to clone stuffs needed to build for Haydn"
 
 # Common device tree (chipset tree)
 if [ ! -d device/xiaomi/sm8350-common ]; then
-   git clone https://github.com/Haydn-Lab/device_xiaomi_sm8350-common -b 15 device/xiaomi/sm8350-common
+   git clone https://github.com/Haydn-Lab/device_xiaomi_sm8350-common -b 16 device/xiaomi/sm8350-common
 fi
 
 # Kernel
 if [ ! -d kernel/xiaomi/sm8350 ]; then
-   git clone --depth=1 https://github.com/Hexdare/ffs-kernel --recursive -b FarFromStock kernel/xiaomi/sm8350
+   git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_sm8350 --recursive -b FarFromStock kernel/xiaomi/sm8350
 fi
 
 # Main vendor tree
 if [ ! -d vendor/xiaomi/haydn ]; then
-   git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_haydn -b 15 vendor/xiaomi/haydn
+   git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_haydn -b 16 vendor/xiaomi/haydn
 fi
 
 # Common vendor tree
 if [ ! -d vendor/xiaomi/sm8350-common ]; then
-   git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_sm8350-common -b 15 vendor/xiaomi/sm8350-common
+   git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_sm8350-common -b 16 vendor/xiaomi/sm8350-common
 fi
 
 # Firmware setup
@@ -42,7 +42,7 @@ fi
 
 # Xiaomi hardware tree
 if [ ! -d hardware/xiaomi/* ]; then
-   git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b vic hardware/xiaomi
+   git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
 fi
 
 rm -rf hardware/xiaomi/dolby
