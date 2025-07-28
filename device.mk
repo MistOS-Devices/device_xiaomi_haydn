@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.haydn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.haydn.rc
 
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_haydn)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
