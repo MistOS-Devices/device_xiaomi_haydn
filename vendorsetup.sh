@@ -45,6 +45,11 @@ if [ ! -d hardware/xiaomi/* ]; then
    git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
 fi
 
+# TimeKeep
+if [ ! -d hardware/sony/timekeep/* ]; then
+   git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep.git -b lineage-22.2 hardware/sony/timekeep
+fi
+
 rm -rf hardware/xiaomi/dolby
 rm -rf hardware/xiaomi/DSP*
 
