@@ -7,7 +7,7 @@ fi
 
 # Kernel
 if [ ! -d kernel/xiaomi/sm8350 ]; then
-   git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_sm8350 --recursive -b FarFromStock kernel/xiaomi/sm8350
+   git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_haydn --recursive -b lineage-22.2 kernel/xiaomi/sm8350
 fi
 
 # Main vendor tree
