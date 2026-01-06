@@ -1,0 +1,57 @@
+[
+  {
+    "remote"     : "github",
+    "repository" : "Haydn-Lab/device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch"     : "mist"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Haydn-Lab/vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch"     : "16"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Haydn-Lab/vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch"     : "16"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-23.0"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Haydn-Lab/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch"     : "16"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch"     : "lineage-23.0"
+  },
+  {
+    "remote"     : "gitlab",
+    "repository" : "Hexdare/haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "branch"     : "fifteen-leica"
+  },
+  {
+    "remote"     : "gitlab",
+    "repository" : "Hexdare/vendor_xiaomi_haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
+    "branch"     : "fourteen"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Haydn-Lab/kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/sm8350",
+    "branch"     : "lineage-22.2"
+    "recursive"  :  "true"
+  }
+]
