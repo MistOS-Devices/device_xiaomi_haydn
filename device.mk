@@ -64,5 +64,3 @@ $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/haydn-miuicamera/products/miuicamera.mk)
 $(call soong_config_set,camera,override_format_from_reserved,true)
 
-# Call thr Bcr setup
-$(call inherit-product, vendor/bcr/bcr.mk)
