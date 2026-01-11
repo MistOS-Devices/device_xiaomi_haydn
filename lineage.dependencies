@@ -53,6 +53,12 @@
     "target_path": "kernel/xiaomi/sm8350",
     "branch"     : "lineage-23",
     "recursive"  :  "true"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "Hexdare/packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar",
+    "branch"     : "main"
   }
 ]
 
