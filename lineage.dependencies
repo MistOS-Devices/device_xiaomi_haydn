@@ -51,7 +51,8 @@
     "remote"     : "github",
     "repository" : "Haydn-Lab/kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/sm8350",
-    "branch"     : "lineage-22.2"
+    "branch"     : "lineage-23",
     "recursive"  :  "true"
   }
 ]
+
