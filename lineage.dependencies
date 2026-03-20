@@ -21,19 +21,13 @@
     "remote"     : "github",
     "repository" : "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch"     : "lineage-23.0"
+    "branch"     : "lineage-23.2"
   },
   {
     "remote"     : "github",
     "repository" : "Haydn-Lab/hardware_dolby",
     "target_path": "hardware/dolby",
     "branch"     : "16"
-  },
-  {
-    "remote"     : "github",
-    "repository" : "LineageOS/android_hardware_sony_timekeep",
-    "target_path": "hardware/sony/timekeep",
-    "branch"     : "lineage-23.0"
   },
   {
     "remote"     : "gitlab",
@@ -51,7 +45,7 @@
     "remote"     : "github",
     "repository" : "Haydn-Lab/kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/sm8350",
-    "branch"     : "lineage-23",
+    "branch"     : "lineage-23.0",
     "recursive"  :  "true"
   },
   {
@@ -59,6 +53,12 @@
     "repository" : "Hexdare/packages_apps_GameBar",
     "target_path": "packages/apps/GameBar",
     "branch"     : "main"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "swiitch-OFF-Lab/packages_apps_DolbyUI",
+    "target_path": "packages/apps/DolbyUI",
+    "branch"     : "16.0"
   }
 ]
 
