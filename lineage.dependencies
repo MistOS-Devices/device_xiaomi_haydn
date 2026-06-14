@@ -9,7 +9,7 @@
     "remote"     : "github",
     "repository" : "Haydn-Lab/vendor_xiaomi_sm8350-common",
     "target_path": "vendor/xiaomi/sm8350-common",
-    "branch"     : "16"
+    "branch"     : "DV"
   },
   {
     "remote"     : "github",
@@ -27,7 +27,7 @@
     "remote"     : "github",
     "repository" : "Haydn-Lab/hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch"     : "16"
+    "branch"     : "DV"
   },
   {
     "remote"     : "gitlab",
